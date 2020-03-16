@@ -11,7 +11,7 @@ A search problem is defined as a 5-tuple:<br>
 
 In this project: 
 <li>The initial state is a 5x5 grid where each cell has either Ironman, Thanos, stone or a warrior.
-<li>The agent (Ironman) can move up, down, left, right, collect a stone and kill a warrior/Thanos.
+<li>The agent (Ironman) can move up, down, left, right, collect a stone, kill a warrior and snap Thanos.
 <li>The state space is represented as a transition function that takes the current state and an operator as inputs and produces the result state.
 <li>The path cost function calculates the damage of Ironman where damage = 5 when Ironman is near Thanos, 1 when he is near a warrior, 
 3 when he collects a stone.
